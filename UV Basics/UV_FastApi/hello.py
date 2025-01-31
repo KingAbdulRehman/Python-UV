@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def default():
-    return {"message": "Hello World"}
+    return {"message": "Hello World!"}
 
 
 if __name__ == "__main__":
